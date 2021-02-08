@@ -28,7 +28,6 @@
     <artifactId>soul-plugin-hystrix</artifactId>
 
     <properties>
-        <hystrix-core.version>1.5.12</hystrix-core.version>
         <hystrix-metrics-event-stream.version>1.4.10</hystrix-metrics-event-stream.version>
         <rxjava-reactive-streams.version>1.2.1</rxjava-reactive-streams.version>
     </properties>
@@ -40,11 +39,6 @@
             <version>${project.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.netflix.hystrix</groupId>
-            <artifactId>hystrix-core</artifactId>
-            <version>${hystrix-core.version}</version>
-        </dependency>
         <dependency>
             <groupId>com.netflix.hystrix</groupId>
             <artifactId>hystrix-metrics-event-stream</artifactId>
